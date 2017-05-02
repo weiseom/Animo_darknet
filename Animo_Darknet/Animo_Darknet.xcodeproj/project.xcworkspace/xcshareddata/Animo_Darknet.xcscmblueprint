@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5E4EA666EB01ABEBC7F011B006E04DFF07A29790",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9350E9F70D9D81077EEEF86AF1D656A38A7DFD5A" : 9223372036854775807,
+    "5E4EA666EB01ABEBC7F011B006E04DFF07A29790" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E8A03FC1-FDCE-4559-A1FC-9A83BF983543",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9350E9F70D9D81077EEEF86AF1D656A38A7DFD5A" : "",
+    "5E4EA666EB01ABEBC7F011B006E04DFF07A29790" : "Animo_darknet\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Animo_Darknet",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Animo_Darknet\/Animo_Darknet.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/weiseom\/Animo_darknet",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5E4EA666EB01ABEBC7F011B006E04DFF07A29790"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kyuuuunmi\/DeepLearning",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9350E9F70D9D81077EEEF86AF1D656A38A7DFD5A"
+    }
+  ]
+}
