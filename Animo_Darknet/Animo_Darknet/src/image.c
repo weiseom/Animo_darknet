@@ -189,6 +189,12 @@ void draw_detections(image im, int num, float thresh, box *boxes, float **probs,
 
             //printf("%d %s: %.0f%%\n", i, names[class], prob*100);
             printf("%s: %.0f%%\n", names[class], prob*100);
+            
+            FILE *f;
+            f=fopen("../../../label_data/labelsave.txt","a+");
+            fprintf(f,"%s\n",names[class]);
+            fclose(f);
+            
             int offset = class*123457 % classes;
             float red = get_color(2,offset,classes);
             float green = get_color(1,offset,classes);
