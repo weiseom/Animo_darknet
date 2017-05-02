@@ -1,6 +1,6 @@
 classes= 20
 train  = /home/pjreddie/data/voc/train.txt
 valid  = /home/pjreddie/data/voc/2007_test.txt
-names = /home/ubuntu/CNN/Animo_darknet/Animo_Darknet/Animo_Darknet/data/voc.names
+names = data/voc.names
 backup = backup
 
