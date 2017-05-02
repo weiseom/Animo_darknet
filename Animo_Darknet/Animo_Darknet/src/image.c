@@ -174,6 +174,9 @@ image **load_alphabet()
 void draw_detections(image im, int num, float thresh, box *boxes, float **probs, char **names, image **alphabet, int classes)
 {
     int i;
+    
+    FILE *f;
+    f=fopen("../../../label_data/labelsave.txt","a+");
 
     for(i = 0; i < num; ++i){
         int class = max_index(probs[i], classes);
@@ -190,10 +193,8 @@ void draw_detections(image im, int num, float thresh, box *boxes, float **probs,
             //printf("%d %s: %.0f%%\n", i, names[class], prob*100);
             printf("%s: %.0f%%\n", names[class], prob*100);
             
-            FILE *f;
-            f=fopen("../../../label_data/labelsave.txt","a+");
+            //animo_suzin : write labeles to file
             fprintf(f,"%s\n",names[class]);
-            fclose(f);
             
             int offset = class*123457 % classes;
             float red = get_color(2,offset,classes);
@@ -226,6 +227,7 @@ void draw_detections(image im, int num, float thresh, box *boxes, float **probs,
             }
         }
     }
+    fclose(f);
 }
 
 void transpose_image(image im)
